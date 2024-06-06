@@ -1,25 +1,35 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin-bottom: 25px;
-  margin-top: 25px;
+.table {
+  padding: 0;
+  margin: 25px 0;
+  width: 100%;
 }
 
-.label {
+.theading {
+  text-align: left;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
-.input {
-  border-radius: 20px;
-  height: 25px;
-  opacity: 40%;
+.delete {
+  display: none;
+}
+
+.tbody {
+  height: 50px;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 20px;
 }
 
 .button {
-  margin: auto;
-  width: 200px;
+  width: 100px;
   background-color: #c2fbd7;
   border-radius: 100px;
   box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
@@ -39,6 +49,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: auto 0;
 }
 
 .button:hover,
